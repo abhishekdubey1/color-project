@@ -22,7 +22,7 @@ class App extends Component {
         />
         <Route
           exact
-          path="/:id"
+          path="/palette/:id"
           render={(routeProps) => (
             <Palette
               palette={generatePalette(
